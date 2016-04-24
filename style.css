@@ -1,0 +1,99 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+body{
+	width: 100%;
+	height: 100%;
+	background: url(images/million.jpg) no-repeat;
+	background-size: cover;
+}
+.hint{
+	width: 100%;
+	float: left;
+	height: 100px;
+	position: absolute;
+}
+.moneydiv{
+	width: 20%;
+	float: right;
+	padding-top: 20px;
+}
+.fire span{
+	color: white;
+}
+.org_bg{
+	width: 90%;
+	background-color: #DAA520;
+	border-radius: 10px;	
+}
+.org_bg span{
+	color: black;
+	padding-left: 10px;
+}
+.hint ul{
+	display: block;
+	width: 280px;
+	margin: 0 auto;
+}
+.hint ul li{
+	display: inline-block;
+	margin: 10px;
+}
+.money, .num{
+	color: #DAA520;
+	font-size: 20px;
+	margin-right: 40px;
+	padding-left: 10px;
+}
+#question_answer{
+	width: 100%;
+	height: 40%;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
+.question{
+	width: 700px;
+	height: 100px;
+	margin: 0 auto;
+	border: 3px solid blue;
+	border-radius: 50px;
+	background-color: black;
+	margin-bottom: 20px;
+}
+.question p{
+	color: white;
+	padding: 10px 30px 0 30px;
+	font-size: 20px;
+}
+.top_ans, .bot_ans{
+	width: 700px;
+	height: 60px;
+	margin: 0 auto;
+}
+.ans_1, .ans_2{
+	width: 346px;
+	height: 50px;
+	display: inline-block;
+	border: 3px solid blue;
+	border-radius: 25px;
+	background-color: black;
+	padding: 10px 0 0 20px;
+} 
+.win{
+	background-color: green;
+}
+.loose{
+	background-color: red;
+}
+.ans_1 a, .ans_2 a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;	
+}
+.ans_1 a span, .ans_2 a span{
+	color: #DAA520;	
+}
