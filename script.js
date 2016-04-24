@@ -80,7 +80,7 @@ b_div.onclick = function(){
 			b_div.classList.remove("win");
 			mon[14-level].classList.remove("org_bg");
 			level+=1;
-			if (level==15) {alert("you win 1 000 000");}
+			if (level==15) {alert("вы выиграли 1 000 000");}
 			else{
 			mon[14-level].classList.add("org_bg");
 			que.innerHTML = questions[level];
